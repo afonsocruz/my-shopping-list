@@ -1,11 +1,11 @@
 import React from 'react';
+import Product from './Components/Product/Product';
 
-function App() {
+const App = () => {
+
   return (
-    <>
-      <h1>Hello World</h1>
-    </>
-  );
+    <Product />
+  )
 }
 
 export default App;
