@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { listProductEntries } from '../../api/api';
-import { StyledDiv } from '../../styles/ProductStyle';
+import { StyledDiv } from './ProductStyle';
 import { CreateProduct } from '../CreateProduct/CreateProduct';
+import { Link, Route } from 'react-router-dom'
 
 function Product() {
 
@@ -29,7 +30,6 @@ function Product() {
                 ))
             }
         </StyledDiv>
-        <CreateProduct/>
         </>
     )
 }

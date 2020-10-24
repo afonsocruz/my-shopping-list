@@ -1,10 +1,13 @@
 import React from 'react';
 import Product from './Components/Product/Product';
+import { BrowserRouter } from 'react-router-dom'
 
 const App = () => {
 
   return (
-    <Product />
+    <BrowserRouter>
+      <Product />
+    </BrowserRouter>
   )
 }
 
