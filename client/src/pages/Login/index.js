@@ -1,12 +1,21 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-import Image from '../../assets/images/thomas-le-pRJhn4MbsMM-unsplash.jpg';
+import { LoginForm } from '../../Components/LoginForm/LoginForm';
 
 export const Login = () => {
+
+    const pageContainer = {
+        display: 'flex',
+        height: '100vh',
+        alignItems: 'center',
+        justifyContent: 'center',
+        maxWidth: '1200px',
+        margin: '0 auto',
+    }
+
     return(
-        <>
-            Login Page
-        </>
+        <div style={pageContainer}>
+            <LoginForm />
+        </div>
     )
 }
