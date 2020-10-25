@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 
 export const CreateProduct = () => {
 
@@ -14,6 +14,7 @@ export const CreateProduct = () => {
             <button>
                 Adicionar
             </button>
+            <Link to="/product">Listagem de produtos</Link>
         </>
     )
 
